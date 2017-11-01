@@ -1,11 +1,9 @@
-A API do Jesus Para Crianças (JPC)
-==================================
-
-# Introdução
+#A API do Jesus Para Crianças (JPC)
 
 A API do Jesus Para Crianças (JPC) possibilita que aplicações se comuniquem com a sua conta no sistema. Este documento explica como o Jesus Para Crianças (JPC) funciona, quais são os objetos envolvidos e como esta comunicação pode ser feita. Esta é a primeira versão da API, ainda em versão beta, algumas mudanças e melhorias serão implementadas futuramente.
 
-A URL base da API (endpoint) é http://publico.tiago.art.br/jpc-api
+A URL base da API:
+ ```endpoint``` http://publico.tiago.art.br/jpc-api
 
 # Apenas JSON
 
@@ -13,9 +11,9 @@ A API só suporta JSON, nós não vamos dar suporte a outro formato. Mesmo que v
 
 
 
-Usuários
-====
-# Fazendo login para receber um token.
+#Usuários
+
+## Fazendo login para receber um token.
 
 ### Request:
 
@@ -39,7 +37,7 @@ Usuários
 ]
 ```
 
-Autor
+#Autor
 
 Esse API REST de PHP foi desenvolvido por Tihh Gonçalves (tiago@tiago.art.br).
  

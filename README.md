@@ -2,6 +2,9 @@
 
 A API do Jesus Para Crianças (JPC) possibilita que aplicações se comuniquem com a sua conta no sistema. Este documento explica como o Jesus Para Crianças (JPC) funciona, quais são os objetos envolvidos e como esta comunicação pode ser feita. Esta é a primeira versão da API, ainda em versão beta, algumas mudanças e melhorias serão implementadas futuramente.
 
+- [Fazendo Login](#fazendo-login)
+- [Retornando Usuário](#retornando-usuário)
+
 ### A URL base da API:
  
 ```endpoint``` http://publico.tiago.art.br/jpc-api
@@ -16,17 +19,19 @@ A regra de segurança é muito simples. Através da requisição ```/login``` vo
 
 Os tokens têm validade de 15 dias de utilização. Toda vez que uma nova requisição é feita com determinado token, esse prazo é zerado.
 
-# Usuários
+# Requisições
+
+## Usuários
 
 
-## Fazendo Login
+### Fazendo Login
 Faz login e retorna um_token_(e informações do usuário).
 
-### Request:
+#### Request:
 
 ```GET /login```
 
-### Response:
+#### Response:
 
 ```json
 {
@@ -43,25 +48,26 @@ Faz login e retorna um_token_(e informações do usuário).
 ```
 
 
-## Retornando Usuário
+### Retornando Usuário
 Retorna informaçoes do usuário.
 
-### Request:
+#### Request:
 
 ```GET /login```
 
-### Response:
+#### Response:
 
 ```json
 {
     "code": "200",
     "data": {
-        "token": "9b4ed8d73052eaaa19f350b72e89ef44",
+        "token": "dff58c4c1378bffa1d8b4fb080918c71",
+        "token_build_date": "2017-10-31 23:40:02",
         "id": "1",
         "name": "Tihh Gonçalves",
-        "avatar": "tihh.jpg",
-        "gender": "M",
-        "age": "18"
+        "avatar": "",
+        "gender": "",
+        "age": ""
     }
 }
 ```

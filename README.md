@@ -32,7 +32,7 @@ Os tokens têm validade de 15 dias (na fase de desenvolvimento, 15 minutos) de u
 ### Fazendo Login
 Faz login e retorna um_token_(e informações do usuário).
 
-#### Request:
+#### Requisição:
 
 ```GET /login```
 
@@ -40,7 +40,7 @@ Faz login e retorna um_token_(e informações do usuário).
  - ```mail``` - E-mail do login.
  - ```pass``` - Senha do login.
 
-#### Response:
+#### Resposta:
 
 ```json
 {
@@ -61,14 +61,14 @@ Faz login e retorna um_token_(e informações do usuário).
 Retorna informaçoes do usuário.
 
 
-#### Request:
+#### Requisição:
 
 ```GET /user```
 
 #### Parâmetros
  - ```token``` - _Token_ de autenticação.
 
-#### Response:
+#### Resposta:
 
 ```json
 {

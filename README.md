@@ -2,8 +2,11 @@
 
 A API do Jesus Para Crianças (JPC) possibilita que aplicações se comuniquem com a sua conta no sistema. Este documento explica como o Jesus Para Crianças (JPC) funciona, quais são os objetos envolvidos e como esta comunicação pode ser feita. Esta é a primeira versão da API, ainda em versão beta, algumas mudanças e melhorias serão implementadas futuramente.
 
-- [Fazendo Login](#fazendo-login)
-- [Retornando Usuário](#retornando-usuário)
+- [Apenas JSON](#apenas-json)
+- [Regras de Segurança](#regra-de-segurança)
+- [Requisições](#requisições)
+    - [Fazendo Login](#fazendo-login)
+    - [Retornando Usuário](#retornando-usuário)
 
 ### A URL base da API:
  

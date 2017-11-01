@@ -36,6 +36,10 @@ Faz login e retorna um_token_(e informações do usuário).
 
 ```GET /login```
 
+###Parâmetros
+ - ```mail``` - E-mail do login.
+ - ```pass``` - Senha do login.
+
 #### Response:
 
 ```json
@@ -56,9 +60,13 @@ Faz login e retorna um_token_(e informações do usuário).
 ### Retornando Usuário
 Retorna informaçoes do usuário.
 
+
 #### Request:
 
 ```GET /user```
+
+###Parâmetros
+ - ```token``` - _Token_ de autenticação.
 
 #### Response:
 

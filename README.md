@@ -1,4 +1,4 @@
-#A API do Jesus Para Crianças (JPC)
+# A API do Jesus Para Crianças (JPC)
 
 A API do Jesus Para Crianças (JPC) possibilita que aplicações se comuniquem com a sua conta no sistema. Este documento explica como o Jesus Para Crianças (JPC) funciona, quais são os objetos envolvidos e como esta comunicação pode ser feita. Esta é a primeira versão da API, ainda em versão beta, algumas mudanças e melhorias serão implementadas futuramente.
 
@@ -16,7 +16,7 @@ A regra de segurança é muito simples. Através da requisição ```/login``` vo
 
 Os tokens têm validade de 15 dias de utilização. Toda vez que uma nova requisição é feita com determinado token, esse prazo é zerado.
 
-#Usuários
+# Usuários
 
 
 ## Fazendo Login
@@ -66,7 +66,7 @@ Retorna informaçoes do usuário.
 }
 ```
 
-#Autor
+# Autor
 
 Esse API REST de PHP foi desenvolvido por Tihh Gonçalves (tiago@tiago.art.br).
  

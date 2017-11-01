@@ -20,7 +20,7 @@ A API só suporta JSON, nós não vamos dar suporte a outro formato. Mesmo que v
 
 A regra de segurança é muito simples. Através da requisição ```/login``` você recebe um _token_ e com essa chave de_token_consegue utilizar todas as demais requisições do sistema.
 
-Os tokens têm validade de 15 dias de utilização. Toda vez que uma nova requisição é feita com determinado token, esse prazo é zerado.
+Os tokens têm validade de 15 dias (na fase de desenvolvimento, 15 minutos) de utilização. Toda vez que uma nova requisição é feita com determinado token, esse prazo é zerado.
 
 # Requisições
 
@@ -56,7 +56,7 @@ Retorna informaçoes do usuário.
 
 #### Request:
 
-```GET /login```
+```GET /user```
 
 #### Response:
 

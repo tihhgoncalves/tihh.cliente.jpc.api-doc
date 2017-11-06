@@ -46,12 +46,12 @@ Faz login e retorna um_token_(e informações do usuário).
 {
     "code": "200",
     "data": {
-        "token": "9b4ed8d73052eaaa19f350b72e89ef44",
-        "id": "1",
-        "name": "Tihh Gonçalves",
-        "avatar": "tihh.jpg",
-        "gender": "M",
-        "age": "18"
+        "token": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "id": "1", //xx
+        "name": "Nome do Aluno", /* xx */
+        "avatar": "avatar.jpg",
+        "gender": "1",
+        "age": "1986-10-01"
     }
 }
 ```
@@ -74,7 +74,7 @@ Retorna informaçoes do usuário.
 {
     "code": "200",
     "data": {
-        "token": "dff58c4c1378bffa1d8b4fb080918c71",
+        "token": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "token_build_date": "2017-10-31 23:40:02",
         "id": "1",
         "name": "Tihh Gonçalves",

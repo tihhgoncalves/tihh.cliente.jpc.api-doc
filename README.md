@@ -47,14 +47,23 @@ Faz login e retorna um_token_(e informações do usuário).
     "code": "200",
     "data": {
         "token": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-        "id": "1", //xx
-        "name": "Nome do Aluno", /* xx */
+        "id": "1",
+        "name": "Nome do Aluno",
         "avatar": "avatar.jpg",
         "gender": "1",
         "age": "1986-10-01"
     }
 }
 ```
+
+##### Considerações
+ - ```data.token``` - Token gerado automaticamente. 
+ - ```data.id``` - Registro ```aluno.id```
+ - ```data.name``` - Registro ```aluno.nome``` 
+ - ```data.avatar``` - ~~(ainda não especificado)~~
+ - ```data.gender``` - Registro ```aluno.sexo``` 
+ - ```data.gender``` - Registro ```aluno.sexo``` 
+ - ```data.age``` - Registro ```aluno.data_nasc``` 
 
 
 ### Retornando Usuário

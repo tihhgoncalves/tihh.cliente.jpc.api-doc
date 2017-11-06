@@ -62,7 +62,6 @@ Faz login e retorna um_token_(e informações do usuário).
  - ```data.name``` - Registro ```aluno.nome``` 
  - ```data.avatar``` - ~~(ainda não especificado)~~
  - ```data.gender``` - Registro ```aluno.sexo``` 
- - ```data.gender``` - Registro ```aluno.sexo``` 
  - ```data.age``` - Registro ```aluno.data_nasc``` 
 
 
@@ -93,6 +92,15 @@ Retorna informaçoes do usuário.
     }
 }
 ```
+
+##### Considerações
+ - ```data.token``` - Token gerado automaticamente. 
+ - ```data.token_build_date``` - Data em que o Token foi criado.
+ - ```data.id``` - Registro ```aluno.id```
+ - ```data.name``` - Registro ```aluno.nome``` 
+ - ```data.avatar``` - ~~(ainda não especificado)~~
+ - ```data.gender``` - Registro ```aluno.sexo``` 
+ - ```data.age``` - Registro ```aluno.data_nasc``` 
 
 # Autor
 

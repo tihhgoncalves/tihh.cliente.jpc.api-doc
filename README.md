@@ -14,7 +14,7 @@ A API do Jesus Para Crianças (JPC) possibilita que aplicações se comuniquem c
  
 ```endpoint``` http://publico.tiago.art.br/jpc-api
 
- *Para realizar teste, utilize login: ```teste``` e senha: ```teste```
+@tihhgoncalves Para testar os _requests_ já disponíveis da API, utilize login: ```teste``` e senha: ```teste```
 
 # Apenas JSON
 

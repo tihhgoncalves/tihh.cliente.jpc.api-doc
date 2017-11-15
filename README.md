@@ -9,6 +9,7 @@ A API do Jesus Para Crianças (JPC) possibilita que aplicações se comuniquem c
 - [Requisições](#requisições)
     - [Fazendo Login](#fazendo-login)
     - [Retornando Usuário](#retornando-usuário)
+    - [Retornando Jogos](#retornando-jogos)
 
 ### A URL base da API:
  
@@ -46,7 +47,7 @@ Faz login e retorna um_token_(e informações do usuário).
 
 ```json
 {
-    "code": "200",
+    "code": "202",
     "data": {
         "token": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "id": "1",
@@ -82,7 +83,7 @@ Retorna informaçoes do usuário.
 
 ```json
 {
-    "code": "200",
+    "code": "202",
     "data": {
         "token": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "token_build_date": "2017-10-31 23:40:02",
@@ -103,6 +104,42 @@ Retorna informaçoes do usuário.
  - ```data.avatar``` - ~~(ainda não especificado)~~
  - ```data.gender``` - Registro ```aluno.sexo``` 
  - ```data.age``` - Registro ```aluno.data_nasc``` 
+ 
+### Retornando Jogos
+ Retorna os jogos do usuário (aluno).
+ 
+ 
+#### Requisição:
+ 
+ ```GET /games```
+ 
+#### Parâmetros
+  - ```token``` - _Token_ de autenticação.
+ 
+#### Resposta:
+ 
+ ```json
+    {
+        "code": "202",
+        "games": [
+            {
+                "id": "1",
+                "name": "Game Biblico",
+                "bundle": "http://emnomedejesus.com.br/arquivosApp/file.file"
+            },
+            {
+                "id": "2",
+                "name": "Decora Versículos",
+                "bundle": "http://emnomedejesus.com.br/arquivosApp/file2.file"
+            }
+        ]
+    }
+ ```
+ 
+##### Considerações
+  - ```games.id``` - Registro ```atividade.id``` 
+  - ```games.name``` - Registro ```atividade.nome``` 
+  - ```games.bundle``` - Registro ```atividade.link_app``` 
 
 # Autor
 

@@ -14,6 +14,10 @@ A API do Jesus Para Crianças (JPC) possibilita que aplicações se comuniquem c
  
 ```endpoint``` http://publico.tiago.art.br/jpc-api
 
+  **Login de teste**
+  -  **login:** teste
+  -  **senha:** teste
+
 # Apenas JSON
 
 A API só suporta JSON, nós não vamos dar suporte a outro formato. Mesmo que você não utilize o header ```Content-Type: application/json; charset=utf-8``` a resposta será em JSON e com charset utf-8.

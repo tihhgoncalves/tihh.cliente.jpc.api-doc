@@ -216,6 +216,44 @@ Retorna informaçoes do usuário.
 ##### Considerações
   - ```games.id``` - Registro ```atividade.id``` 
   - ```games.available``` - Registro ```aqluno_atividade.status```    
+  
+  
+---
+
+### Retorna Aula Atual
+ 
+ 
+#### Requisição:
+ 
+ ```GET /current-class```
+ 
+#### Parâmetros
+  - ```token``` - _Token_ de autenticação.
+ 
+#### Resposta:
+ 
+ ```json
+    {
+        "code": "202",
+        "games": [
+            {
+                "current_class": "1",
+                "current_interaction": "1"
+            },
+            {
+                "current_class": "2",
+                "current_interaction": "1"
+            }
+            
+        ]
+    }
+ ```
+ 
+##### Considerações
+  - ```games.id``` - Registro ```atividade.id``` 
+  - ```games.available``` - Registro ```aqluno_atividade.status```    
+  
+  ---
 
 # Autor
 

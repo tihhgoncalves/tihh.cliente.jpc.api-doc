@@ -254,6 +254,60 @@ Retorna informaçoes do usuário.
   - ```games.current_class``` - Registro ```aluno.aula_atual``` 
   - ```games.current_interaction``` - Registro ```aluno.atividade_atual```    
   
+  
+  
+---
+
+### Salvar Aula que o Aluno Parou
+ 
+ 
+#### Requisição:
+ 
+ ```POST /current-class```
+ 
+#### Parâmetros
+  - ```token``` - _Token_ de autenticação.
+  - ```atividade_atual``` - ```id```  da atividade.
+  - ```aula_atual``` - ```id```  da aula que o aluno parou o estudo.
+ 
+#### Resposta:
+ 
+ ```json
+    {
+        "code": "202",
+        "data": {
+                "message": "ok"
+        }
+    }
+ ```
+ 
+ 
+  
+---
+
+### Salvar Pontuação do Aluno
+ 
+ 
+#### Requisição:
+ 
+ ```POST /current-class```
+ 
+#### Parâmetros
+  - ```token``` - _Token_ de autenticação.
+  - ```id_atividade ``` - ```id```  da atividade.
+  - ```pontos``` - ```id```  pontos que o aluno fez.
+ 
+#### Resposta:
+ 
+ ```json
+    {
+        "code": "202",
+        "data": {
+                "message": "ok"
+        }
+    }
+ ```
+
   ---
 
 # Autor

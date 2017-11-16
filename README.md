@@ -69,6 +69,7 @@ Faz login e retorna um_token_(e informações do usuário).
  - ```data.gender``` - Registro ```aluno.sexo``` 
  - ```data.age``` - Registro ```aluno.data_nasc``` 
 
+---
 
 ### Retornando Usuário
 Retorna informaçoes do usuário.

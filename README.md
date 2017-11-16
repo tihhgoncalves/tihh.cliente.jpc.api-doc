@@ -7,10 +7,10 @@ A API do Jesus Para Crianças (JPC) possibilita que aplicações se comuniquem c
 - [Apenas JSON](#apenas-json)
 - [Regras de Segurança](#regra-de-segurança)
 - [Requisições](#requisições)
-    - [Fazendo Login](#fazendo-login)
-    - [Retornando Usuário](#retornando-usuário)
-    - [Retornando Jogos](#retornando-jogos)
-    - [Retornando Relatório Escolar](#retornando-relatório-escolar)
+    - [Fazendo Login](#fazendo-login) ```GET /login```
+    - [Retornando Usuário](#retornando-usuário) ```GET /user```
+    - [Retornando Jogos](#retornando-jogos) ```GET /games```
+    - [Retornando Relatório Escolar](#retornando-relatório-escolar) ```GET /school-report```
 
 ### A URL base da API:
  

@@ -141,6 +141,41 @@ Retorna informaçoes do usuário.
   - ```games.name``` - Registro ```atividade.nome``` 
   - ```games.bundle``` - Registro ```atividade.link_app``` 
 
+
+### Retornando Relatório Escolar
+ Retorna o relatório com a pontuação dos jogos do aluno.
+ 
+ 
+#### Requisição:
+ 
+ ```GET /school-report```
+ 
+#### Parâmetros
+  - ```token``` - _Token_ de autenticação.
+ 
+#### Resposta:
+ 
+ ```json
+    {
+        "code": "202",
+        "games": [
+            {
+                "id": "1",
+                "score": "350"
+            },
+            {
+                "id": "2",
+                "score": "550"
+            }
+            
+        ]
+    }
+ ```
+ 
+##### Considerações
+  - ```games.id``` - Registro ```aluno_atividade.id``` 
+  - ```games.score``` - Registro ```aluno_atividade.pontos```  
+
 # Autor
 
 Esse API REST de PHP foi desenvolvido por Tihh Gonçalves (tiago@tiago.art.br).

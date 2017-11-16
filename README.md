@@ -31,8 +31,7 @@ Os tokens têm validade de 15 dias (na fase de desenvolvimento, 15 minutos) de u
 
 # Requisições
 
-## Usuários
-
+---
 
 ### Fazendo Login
 Faz login e retorna um_token_(e informações do usuário).
@@ -108,6 +107,8 @@ Retorna informaçoes do usuário.
  - ```data.gender``` - Registro ```aluno.sexo``` 
  - ```data.age``` - Registro ```aluno.data_nasc``` 
  
+---
+ 
 ### Retornando Jogos
  Retorna os jogos do usuário (aluno).
  
@@ -144,6 +145,7 @@ Retorna informaçoes do usuário.
   - ```games.name``` - Registro ```atividade.nome``` 
   - ```games.bundle``` - Registro ```atividade.link_app``` 
 
+---
 
 ### Retornando Relatório
  Retorna o relatório com a pontuação dos jogos do aluno.
@@ -179,6 +181,8 @@ Retorna informaçoes do usuário.
   - ```games.id``` - Registro ```aluno_atividade.id``` 
   - ```games.score``` - Registro ```aluno_atividade.pontos```  
   
+
+---
 
 ### Retorna Status do Game
  

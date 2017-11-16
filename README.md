@@ -176,6 +176,40 @@ Retorna informaçoes do usuário.
 ##### Considerações
   - ```games.id``` - Registro ```aluno_atividade.id``` 
   - ```games.score``` - Registro ```aluno_atividade.pontos```  
+  
+
+### Retorna Status do Game
+ 
+ 
+#### Requisição:
+ 
+ ```GET /library```
+ 
+#### Parâmetros
+  - ```token``` - _Token_ de autenticação.
+ 
+#### Resposta:
+ 
+ ```json
+    {
+        "code": "202",
+        "games": [
+            {
+                "id": "1",
+                "available": "1"
+            },
+            {
+                "id": "2",
+                "available": "0"
+            }
+            
+        ]
+    }
+ ```
+ 
+##### Considerações
+  - ```games.id``` - Registro ```atividade.id``` 
+  - ```games.available``` - Registro ```aqluno_atividade.status```    
 
 # Autor
 

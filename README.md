@@ -216,7 +216,7 @@ Retorna informaçoes do usuário.
  
 ##### Considerações
   - ```games.id``` - Registro ```atividade.id``` 
-  - ```games.available``` - Registro ```aqluno_atividade.status```    
+  - ```games.available``` - Registro ```aluno_atividade.status```    
   
   
 ---
@@ -251,8 +251,8 @@ Retorna informaçoes do usuário.
  ```
  
 ##### Considerações
-  - ```games.id``` - Registro ```atividade.id``` 
-  - ```games.available``` - Registro ```aqluno_atividade.status```    
+  - ```games.current_class``` - Registro ```aluno.aula_atual``` 
+  - ```games.current_interaction``` - Registro ```aluno.atividade_atual```    
   
   ---
 

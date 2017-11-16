@@ -13,6 +13,8 @@ A API do Jesus Para Crianças (JPC) possibilita que aplicações se comuniquem c
     - [Retorna Relatório](#retorna-relatório) ```GET /school-report```
     - [Retorna Status do Game](#retorna-status-do-game) ```GET /library```
     - [Retorna Aula e Atividade Atual](#retorna-aula-e-atividade-atual) ```GET /current-class```
+    - [Salva Aula que o Aluno Parou](#salva-aula-que-o-aluno-parou) ```POST /save-progress```
+    - [Salva Pontuação do Aluno](#salva-pontuação-do-aluno) ```POST /save-score```
 
 ### A URL base da API:
  
@@ -258,12 +260,12 @@ Retorna informaçoes do usuário.
   
 ---
 
-### Salvar Aula que o Aluno Parou
+### Salva Aula que o Aluno Parou
  
  
 #### Requisição:
  
- ```POST /current-class```
+ ```POST /save-progress```
  
 #### Parâmetros
   - ```token``` - _Token_ de autenticação.
@@ -285,12 +287,12 @@ Retorna informaçoes do usuário.
   
 ---
 
-### Salvar Pontuação do Aluno
+### Salva Pontuação do Aluno
  
  
 #### Requisição:
  
- ```POST /current-class```
+ ```POST /save-score```
  
 #### Parâmetros
   - ```token``` - _Token_ de autenticação.

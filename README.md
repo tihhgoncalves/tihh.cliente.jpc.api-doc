@@ -128,18 +128,20 @@ Retorna informaçoes do usuário.
  ```json
     {
         "code": "202",
-        "games": [
-            {
-                "id": "1",
-                "name": "Game Biblico",
-                "bundle": "http://emnomedejesus.com.br/arquivosApp/file.file"
-            },
-            {
-                "id": "2",
-                "name": "Decora Versículos",
-                "bundle": "http://emnomedejesus.com.br/arquivosApp/file2.file"
-            }
-        ]
+        "data": {
+            "games": [
+                {
+                    "id": "1",
+                    "name": "Game Biblico",
+                    "bundle": "http://emnomedejesus.com.br/arquivosApp/file.file"
+                },
+                {
+                    "id": "2",
+                    "name": "Decora Versículos",
+                    "bundle": "http://emnomedejesus.com.br/arquivosApp/file2.file"
+                }
+            ]
+        }
     }
  ```
  
@@ -166,17 +168,18 @@ Retorna informaçoes do usuário.
  ```json
     {
         "code": "202",
-        "games": [
-            {
-                "id": "1",
-                "score": "350"
-            },
-            {
-                "id": "2",
-                "score": "550"
-            }
-            
-        ]
+        "data" : {
+            "games": [
+                {
+                    "id": "1",
+                    "score": "350"
+                },
+                {
+                    "id": "2",
+                    "score": "550"
+                }
+            ]
+        }
     }
  ```
  
@@ -202,17 +205,18 @@ Retorna informaçoes do usuário.
  ```json
     {
         "code": "202",
-        "games": [
-            {
-                "id": "1",
-                "available": "1"
-            },
-            {
-                "id": "2",
-                "available": "0"
-            }
-            
-        ]
+        "data" : {
+            "games": [
+                {
+                    "id": "1",
+                    "available": "1"
+                },
+                {
+                    "id": "2",
+                    "available": "0"
+                }
+            ]
+        }
     }
  ```
  
@@ -238,17 +242,18 @@ Retorna informaçoes do usuário.
  ```json
     {
         "code": "202",
-        "games": [
-            {
-                "current_class": "1",
-                "current_interaction": "1"
-            },
-            {
-                "current_class": "2",
-                "current_interaction": "1"
-            }
-            
-        ]
+        "data" : {
+            "games": [
+                {
+                    "current_class": "1",
+                    "current_interaction": "1"
+                },
+                {
+                    "current_class": "2",
+                    "current_interaction": "1"
+                }
+            ]
+        }
     }
  ```
  

@@ -10,7 +10,7 @@ A API do Jesus Para Crianças (JPC) possibilita que aplicações se comuniquem c
     - [Fazendo Login](#fazendo-login) ```GET /login```
     - [Retornando Usuário](#retornando-usuário) ```GET /user```
     - [Retornando Jogos](#retornando-jogos) ```GET /games```
-    - [Retornando Relatório Escolar](#retornando-relatório-escolar) ```GET /school-report```
+    - [Retornando Relatório](#retornando-relatório) ```GET /school-report```
 
 ### A URL base da API:
  
@@ -143,7 +143,7 @@ Retorna informaçoes do usuário.
   - ```games.bundle``` - Registro ```atividade.link_app``` 
 
 
-### Retornando Relatório Escolar
+### Retornando Relatório
  Retorna o relatório com a pontuação dos jogos do aluno.
  
  
